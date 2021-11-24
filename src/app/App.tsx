@@ -1,6 +1,7 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-function render() {
-    ReactDOM.render(<h2>Hello from React!</h2>, document.body);
-}
-render();
+import React from "react";
+
+const App = () => {
+    return <div>This is now the main app</div>;
+};
+
+export default App;
